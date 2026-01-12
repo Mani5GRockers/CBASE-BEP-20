@@ -1,0 +1,45 @@
+[block:74980318 txIndex:7]from: 0x201...7Aa36to: CBASE.(constructor)value: 0 weidata: 0x608...40033logs: 1hash: 0x2bb...7dfb2
+status	1 Transaction mined and execution succeed
+transaction hash	0xf494361e47ba9efd7456f730fb2ec385f2f31ceb3528391b634ae84f8ff72716
+block hash	0x2bbddc92829ce90ab9cdfe330ee04c14a5d5d7c8db422522a8f226c3a907dfb2
+block number	74980318
+contract address	0x4EcaD5724651003A0212ea2A7EAAcEbaA9E589b4
+from	0x2011E13d777a951a3682e0047Ceca9b07657Aa36
+to	CBASE.(constructor)
+transaction cost	1025888 gas 
+decoded input	{}
+decoded output	 - 
+logs	[
+	{
+		"from": "0x4EcaD5724651003A0212ea2A7EAAcEbaA9E589b4",
+		"topic": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+		"event": "Transfer",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0x2011E13d777a951a3682e0047Ceca9b07657Aa36",
+			"2": "1000000000000000000000000000000"
+		}
+	}
+]
+raw logs	[
+  {
+    "_type": "log",
+    "address": "0x4EcaD5724651003A0212ea2A7EAAcEbaA9E589b4",
+    "blockHash": "0x2bbddc92829ce90ab9cdfe330ee04c14a5d5d7c8db422522a8f226c3a907dfb2",
+    "blockNumber": 74980318,
+    "data": "0x000000000000000000000000000000000000000c9f2c9cd04674edea40000000",
+    "index": 34,
+    "topics": [
+      "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+      "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "0x0000000000000000000000002011e13d777a951a3682e0047ceca9b07657aa36"
+    ],
+    "transactionHash": "0xf494361e47ba9efd7456f730fb2ec385f2f31ceb3528391b634ae84f8ff72716",
+    "transactionIndex": 7
+  }
+]
+[Verification] Contract deployed. Checking explorers for registration...
+Etherscan verification skipped: API key not provided.
+Please input the API key in Remix Settings - Connected Services OR Contract Verification Plugin Settings.
+[Sourcify] Verification submitted. Awaiting confirmation...
+[Sourcify] Verification Successful!  View Code 
